@@ -4,6 +4,7 @@ import path from 'path';
 import { mkdir, rm, access } from 'fs/promises';
 import sharp from 'sharp';
 import { v4 as uuidv4 } from 'uuid';
+export const UPLOADS_BASE = process.env.UPLOADS_BASE || '/tmp/uploads';
 
 const execAsync = promisify(exec);
 

@@ -8,12 +8,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 export default function Home() {
   const [files, setFiles] = useState<File[]>([]);
   const [loading, setLoading] = useState(false);
-  const [projectId, setProjectId] = useState<string | null>(null);
   const [status, setStatus] = useState<string>('idle');
   const [error, setError] = useState<string | null>(null);
-  const [modelId, setModelId] = useState<string | null>(null);
   const [modelUrl, setModelUrl] = useState<string | null>(null);
-  const router = useRouter();
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
     setFiles(acceptedFiles);
@@ -41,8 +38,6 @@ export default function Home() {
       const formData = new FormData();
       formData.append('file', files[0]);
   
-      console.log('Submitting file:', files[0].name); // Debug log
-  
       const res = await fetch('/api/csm-render', {
         method: 'POST',
         body: formData,
@@ -51,12 +46,10 @@ export default function Home() {
       const data = await res.json();
       
       if (!res.ok) {
-        console.error('Server response:', data); // Debug log
         throw new Error(data.error || `Server error: ${res.status}`);
       }
       
       if (data.modelId) {
-        setModelId(data.modelId);
         setStatus('processing');
         pollModelStatus(data.modelId);
       } else {
@@ -96,7 +89,6 @@ export default function Home() {
       }
       
       if (data.projectId) {
-        setProjectId(data.projectId);
         setStatus('processing');
         pollStatus(data.projectId);
       }
@@ -142,7 +134,7 @@ export default function Home() {
         }
         
         if (data.status === 'processing') {
-          setTimeout(checkStatus, 5000); // Poll every 5 seconds
+          setTimeout(checkStatus, 5000);
         }
       } catch (error) {
         console.error(error);
