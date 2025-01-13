@@ -1,8 +1,7 @@
-// app/api/csm-status/[id]/route.ts
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(
-  request: Request,
+  request: NextRequest,
   { params }: { params: { id: string } }
 ) {
   if (!process.env.CSM_API_KEY) {
@@ -17,7 +16,7 @@ export async function GET(
 
     const response = await fetch(`https://api.3d.csm.ai/v1/models/${modelId}`, {
       headers: {
-        'Authorization': process.env.CSM_API_KEY, // Changed: removed 'Bearer ' prefix
+        'Authorization': process.env.CSM_API_KEY,
       },
     });
 
@@ -41,3 +40,4 @@ export async function GET(
     );
   }
 }
+
