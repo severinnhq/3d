@@ -1,0 +1,343 @@
+{
+    "version": [
+        1,
+        2,
+        6
+    ],
+    "views": [
+        {
+            "viewId": 318388001,
+            "poseId": 318388001,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_18.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 482369635,
+            "poseId": 482369635,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_14.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 482431995,
+            "poseId": 482431995,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_17.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 482877691,
+            "poseId": 482877691,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_16.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 489329347,
+            "poseId": 489329347,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_11.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 492203407,
+            "poseId": 492203407,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_15.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 492608316,
+            "poseId": 492608316,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_13.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 495517959,
+            "poseId": 495517959,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_10.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 497276018,
+            "poseId": 497276018,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_12.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 504802377,
+            "poseId": 504802377,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_19.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 739141625,
+            "poseId": 739141625,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_8.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 739936569,
+            "poseId": 739936569,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_9.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 741397093,
+            "poseId": 741397093,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_7.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 747097832,
+            "poseId": 747097832,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_4.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 749289037,
+            "poseId": 749289037,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_6.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 752723642,
+            "poseId": 752723642,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_5.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 791816498,
+            "poseId": 791816498,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_3.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 794169238,
+            "poseId": 794169238,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_1.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 794320144,
+            "poseId": 794320144,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_2.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1110812548,
+            "poseId": 1110812548,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_29.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1111456038,
+            "poseId": 1111456038,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_28.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1113123707,
+            "poseId": 1113123707,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_20.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1113391287,
+            "poseId": 1113391287,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_21.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1113774111,
+            "poseId": 1113774111,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_22.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1125112048,
+            "poseId": 1125112048,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_24.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1128278290,
+            "poseId": 1128278290,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_23.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1135732880,
+            "poseId": 1135732880,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_26.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1136977542,
+            "poseId": 1136977542,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_27.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1290388706,
+            "poseId": 1290388706,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_25.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1505418911,
+            "poseId": 1505418911,
+            "path": "C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_30.jpg",
+            "intrinsicId": 1096067304,
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": 1096067304,
+            "initialFocalLength": -1.0,
+            "focalLength": 57.94112549695428,
+            "pixelRatio": 1.0,
+            "pixelRatioLocked": true,
+            "type": "radial3",
+            "width": 768,
+            "height": 1024,
+            "sensorWidth": 36.0,
+            "sensorHeight": 24.0,
+            "serialNumber": "C:\\xampp\\htdocs\\3d\\3d\\output\\3cdde43b-c0df-464c-a40e-ea2fc31a72ed\\input",
+            "principalPoint": [
+                0.0,
+                0.0
+            ],
+            "initializationMode": "unknown",
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "undistortionOffset": [
+                0.0,
+                0.0
+            ],
+            "undistortionParams": [],
+            "locked": false
+        }
+    ],
+    "featureFolder": "",
+    "matchingFolder": ""
+}

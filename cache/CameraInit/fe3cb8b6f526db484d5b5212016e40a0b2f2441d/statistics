@@ -1,0 +1,198 @@
+{
+    "fileVersion": 2.0,
+    "computer": {
+        "nbCores": 0,
+        "cpuFreq": 2500.0,
+        "ramTotal": 31.776168823242188,
+        "ramAvailable": 0,
+        "vramAvailable": 0,
+        "swapAvailable": 0,
+        "gpuMemoryTotal": "4096",
+        "gpuName": "NVIDIA GeForce GTX 1650",
+        "curves": {
+            "cpuUsage.0": [
+                0.0
+            ],
+            "cpuUsage.1": [
+                0.0
+            ],
+            "cpuUsage.2": [
+                0.0
+            ],
+            "cpuUsage.3": [
+                0.0
+            ],
+            "cpuUsage.4": [
+                0.0
+            ],
+            "cpuUsage.5": [
+                0.0
+            ],
+            "cpuUsage.6": [
+                0.0
+            ],
+            "cpuUsage.7": [
+                0.0
+            ],
+            "cpuUsage.8": [
+                0.0
+            ],
+            "cpuUsage.9": [
+                0.0
+            ],
+            "cpuUsage.10": [
+                0.0
+            ],
+            "cpuUsage.11": [
+                0.0
+            ],
+            "ramUsage": [
+                66.3
+            ],
+            "swapUsage": [
+                4.4
+            ],
+            "vramUsage": [
+                0
+            ],
+            "ioCounters.read_count": [
+                1466403
+            ],
+            "ioCounters.write_count": [
+                2997022
+            ],
+            "ioCounters.read_bytes": [
+                51708372992
+            ],
+            "ioCounters.write_bytes": [
+                135861054464
+            ],
+            "ioCounters.read_time": [
+                1358
+            ],
+            "ioCounters.write_time": [
+                897
+            ],
+            "gpuMemoryUsed": [
+                "2610"
+            ],
+            "gpuUsed": [
+                "90"
+            ],
+            "gpuTemperature": [
+                "81"
+            ]
+        },
+        "nvidia_smi": "C:\\Windows\\system32\\nvidia-smi.exe",
+        "_isInit": true
+    },
+    "process": {
+        "duration": 0,
+        "curves": {
+            "cpu_percent": [
+                0.0
+            ],
+            "status": [
+                "running"
+            ],
+            "num_threads": [
+                5
+            ],
+            "memory_info.rss": [
+                36360192
+            ],
+            "memory_info.vms": [
+                26648576
+            ],
+            "memory_info.num_page_faults": [
+                17255
+            ],
+            "memory_info.peak_wset": [
+                36462592
+            ],
+            "memory_info.wset": [
+                36360192
+            ],
+            "memory_info.peak_paged_pool": [
+                207312
+            ],
+            "memory_info.paged_pool": [
+                175680
+            ],
+            "memory_info.peak_nonpaged_pool": [
+                38280
+            ],
+            "memory_info.nonpaged_pool": [
+                23296
+            ],
+            "memory_info.pagefile": [
+                26648576
+            ],
+            "memory_info.peak_pagefile": [
+                27385856
+            ],
+            "memory_info.private": [
+                26648576
+            ],
+            "num_ctx_switches.voluntary": [
+                765
+            ],
+            "num_ctx_switches.involuntary": [
+                0
+            ],
+            "threads.0.id": [
+                33136
+            ],
+            "threads.0.user_time": [
+                0.046875
+            ],
+            "threads.0.system_time": [
+                0.0
+            ],
+            "threads.1.id": [
+                35648
+            ],
+            "threads.1.user_time": [
+                0.0
+            ],
+            "threads.1.system_time": [
+                0.0
+            ],
+            "threads.2.id": [
+                32892
+            ],
+            "threads.2.user_time": [
+                0.0
+            ],
+            "threads.2.system_time": [
+                0.0
+            ],
+            "threads.3.id": [
+                38704
+            ],
+            "threads.3.user_time": [
+                0.0
+            ],
+            "threads.3.system_time": [
+                0.0
+            ],
+            "threads.4.id": [
+                33932
+            ],
+            "threads.4.user_time": [
+                0.015625
+            ],
+            "threads.4.system_time": [
+                0.0625
+            ],
+            "memory_percent": [
+                0.10656749658940794
+            ]
+        },
+        "openFiles": {}
+    },
+    "times": [
+        1736768263.6920636
+    ],
+    "interval": 10
+}

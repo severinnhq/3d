@@ -1,0 +1,19 @@
+{
+    "_parent": null,
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Meshing_1",
+    "nodeType": "Meshing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_meshing  --input \"C:/xampp/htdocs/3d/3d/cache/StructureFromMotion/3c8824f8f70fe8f235e6300f763bac8335923fa4/sfm.abc\" --depthMapsFolder \"C:/xampp/htdocs/3d/3d/cache/DepthMapFilter/3aee6672f0bf0f2a85e7662b9e15c1892097118d\" --estimateSpaceFromSfM True --estimateSpaceMinObservations 3 --estimateSpaceMinObservationAngle 10.0 --maxInputPoints 50000000 --maxPoints 5000000 --maxPointsPerVoxel 1000000 --minStep 2 --partitioning singleBlock --repartition multiResolution --angleFactor 15.0 --simFactor 15.0 --minVis 2 --pixSizeMarginInitCoef 2.0 --pixSizeMarginFinalCoef 4.0 --voteMarginFactor 4.0 --contributeMarginFactor 2.0 --simGaussianSizeInit 10.0 --simGaussianSize 10.0 --minAngleThreshold 1.0 --refineFuse True --helperPointsGridSize 10 --nPixelSizeBehind 4.0 --fullWeight 1.0 --voteFilteringForWeaklySupportedSurfaces True --addLandmarksToTheDensePointCloud False --invertTetrahedronBasedOnNeighborsNbIterations 10 --minSolidAngleRatio 0.2 --nbSolidAngleFilteringIterations 2 --colorizeOutput False --maxNbConnectedHelperPoints 50 --saveRawDensePointCloud False --exportDebugTetrahedralization False --seed 0 --verboseLevel info --outputMesh \"C:/xampp/htdocs/3d/3d/cache/Meshing/dfee26ddba5725f8f4356e3f4978ebeb72eb7f6b/mesh.obj\" --output \"C:/xampp/htdocs/3d/3d/cache/Meshing/dfee26ddba5725f8f4356e3f4978ebeb72eb7f6b/densePointCloud.abc\"",
+    "env": null,
+    "startDateTime": "2025-01-13 12:40:40.832449",
+    "endDateTime": "2025-01-13 12:40:57.569274",
+    "elapsedTime": 16.736825227737427,
+    "hostname": "DESKTOP-K5H5B6K",
+    "sessionUid": "cd42bfec-d1a2-11ef-9506-5cf37089c16e",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:16.736825"
+}

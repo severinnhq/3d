@@ -1,0 +1,220 @@
+{
+    "fileVersion": 2.0,
+    "computer": {
+        "nbCores": 0,
+        "cpuFreq": 2500.0,
+        "ramTotal": 31.776168823242188,
+        "ramAvailable": 0,
+        "vramAvailable": 0,
+        "swapAvailable": 0,
+        "gpuMemoryTotal": "4096",
+        "gpuName": "NVIDIA GeForce GTX 1650",
+        "curves": {
+            "cpuUsage.0": [
+                0.0,
+                0.0
+            ],
+            "cpuUsage.1": [
+                0.0,
+                5.6
+            ],
+            "cpuUsage.2": [
+                0.0,
+                0.0
+            ],
+            "cpuUsage.3": [
+                0.0,
+                0.0
+            ],
+            "cpuUsage.4": [
+                0.0,
+                11.8
+            ],
+            "cpuUsage.5": [
+                0.0,
+                35.3
+            ],
+            "cpuUsage.6": [
+                0.0,
+                0.0
+            ],
+            "cpuUsage.7": [
+                0.0,
+                11.8
+            ],
+            "cpuUsage.8": [
+                0.0,
+                11.8
+            ],
+            "cpuUsage.9": [
+                0.0,
+                16.7
+            ],
+            "cpuUsage.10": [
+                0.0,
+                5.9
+            ],
+            "cpuUsage.11": [
+                0.0,
+                17.6
+            ],
+            "ramUsage": [
+                70.9,
+                70.9
+            ],
+            "swapUsage": [
+                4.7,
+                4.7
+            ],
+            "vramUsage": [
+                0,
+                0
+            ],
+            "ioCounters.read_count": [
+                1472773,
+                1472774
+            ],
+            "ioCounters.write_count": [
+                3005906,
+                3005907
+            ],
+            "ioCounters.read_bytes": [
+                52118988800,
+                52119021568
+            ],
+            "ioCounters.write_bytes": [
+                136518528000,
+                136518532096
+            ],
+            "ioCounters.read_time": [
+                1379,
+                1379
+            ],
+            "ioCounters.write_time": [
+                898,
+                898
+            ],
+            "gpuMemoryUsed": [
+                "1075",
+                "1075"
+            ],
+            "gpuUsed": [
+                "16",
+                "16"
+            ],
+            "gpuTemperature": [
+                "54",
+                "54"
+            ]
+        },
+        "nvidia_smi": "C:\\Windows\\system32\\nvidia-smi.exe",
+        "_isInit": true
+    },
+    "process": {
+        "duration": 0,
+        "curves": {
+            "cpu_percent": [
+                0.0,
+                18.8
+            ],
+            "status": [
+                "running",
+                "running"
+            ],
+            "num_threads": [
+                2,
+                2
+            ],
+            "memory_info.rss": [
+                35295232,
+                36196352
+            ],
+            "memory_info.vms": [
+                25812992,
+                26664960
+            ],
+            "memory_info.num_page_faults": [
+                567516,
+                582732
+            ],
+            "memory_info.peak_wset": [
+                37437440,
+                37437440
+            ],
+            "memory_info.wset": [
+                35295232,
+                36196352
+            ],
+            "memory_info.peak_paged_pool": [
+                207312,
+                207312
+            ],
+            "memory_info.paged_pool": [
+                175872,
+                175872
+            ],
+            "memory_info.peak_nonpaged_pool": [
+                46856,
+                46856
+            ],
+            "memory_info.nonpaged_pool": [
+                23024,
+                23024
+            ],
+            "memory_info.pagefile": [
+                25812992,
+                26664960
+            ],
+            "memory_info.peak_pagefile": [
+                27504640,
+                27504640
+            ],
+            "memory_info.private": [
+                25812992,
+                26664960
+            ],
+            "num_ctx_switches.voluntary": [
+                812,
+                848
+            ],
+            "num_ctx_switches.involuntary": [
+                0,
+                0
+            ],
+            "threads.0.id": [
+                33136,
+                33136
+            ],
+            "threads.0.user_time": [
+                0.046875,
+                0.046875
+            ],
+            "threads.0.system_time": [
+                0.015625,
+                0.015625
+            ],
+            "threads.1.id": [
+                15712,
+                15712
+            ],
+            "threads.1.user_time": [
+                0.015625,
+                0.015625
+            ],
+            "threads.1.system_time": [
+                0.03125,
+                0.0625
+            ],
+            "memory_percent": [
+                0.10344622261022059,
+                0.10608730059260987
+            ]
+        },
+        "openFiles": {}
+    },
+    "times": [
+        1736768475.9699504,
+        1736768476.252749
+    ],
+    "interval": 10
+}

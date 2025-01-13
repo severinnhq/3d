@@ -1,0 +1,106 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>[log] Sequential SfM reconstruction</title>
+</head>
+<h1>[log] Sequential SfM reconstruction</h1>
+<hr>Dataset info:Views count: 30<br><h3>Essential Matrix.</h3>
+
+<b>Robust Essential matrix:</b><br>-> View I:<br>id: 1111456038<br>image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_28.jpg<br>-> View J:<br>id: 1135732880<br>image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_26.jpg<br><br>- Threshold: 2.19916<br>- Resection status: OK<br>- # points used for robust Essential matrix estimation: 1277<br>- # points validated by robust estimation: 1275<br>- % points validated: 0.998434<br><h3>Initial triangulation - Residual of the robust estimation.<br>Thresholded at: 2.19916</h3>
+<h3>Histogram of residuals</h3>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.60000,1.20000,1.80000,2.40000,3.00000,];
+var data1= [2195.00000,317.00000,35.00000,2.00000,0.00000,1.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1],strokeColor:'#0000ff',highlightStrokeColor:'#0000ff'});
+var p2 = board.create('point',[2.19916,0.00000], {fixed:true});
+var p3 = board.create('point',[2.19916,2195.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.60000,2634.00000,3.60000,-439.00000]);
+</script>
+<hr><h4>Robust resection of view 1136977542: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_27.jpg<br>- Threshold (error max): 5.4675<br>- Resection status: OK<br>- # points used for Resection: 896<br>- # points validated by robust estimation: 862<br>- % points validated: 0.962054<br><h4>Robust resection of view 1290388706: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_25.jpg<br>- Threshold (error max): 2.89976<br>- Resection status: OK<br>- # points used for Resection: 657<br>- # points validated by robust estimation: 616<br>- % points validated: 0.937595<br><h4>Robust resection of view 1125112048: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_24.jpg<br>- Threshold (error max): 4.02657<br>- Resection status: OK<br>- # points used for Resection: 430<br>- # points validated by robust estimation: 416<br>- % points validated: 0.967442<br><h4>Robust resection of view 1128278290: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_23.jpg<br>- Threshold (error max): 2.91252<br>- Resection status: OK<br>- # points used for Resection: 656<br>- # points validated by robust estimation: 619<br>- % points validated: 0.943598<br><h4>Robust resection of view 1113774111: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_22.jpg<br>- Threshold (error max): 2.54191<br>- Resection status: OK<br>- # points used for Resection: 997<br>- # points validated by robust estimation: 930<br>- % points validated: 0.932798<br><h4>Robust resection of view 1113391287: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_21.jpg<br>- Threshold (error max): 2.75314<br>- Resection status: OK<br>- # points used for Resection: 1544<br>- # points validated by robust estimation: 1465<br>- % points validated: 0.948834<br><h4>Robust resection of view 1110812548: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_29.jpg<br>- Threshold (error max): 4.07209<br>- Resection status: OK<br>- # points used for Resection: 268<br>- # points validated by robust estimation: 254<br>- % points validated: 0.947761<br><h4>Robust resection of view 1505418911: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_30.jpg<br>- Threshold (error max): 2.97825<br>- Resection status: OK<br>- # points used for Resection: 206<br>- # points validated by robust estimation: 186<br>- % points validated: 0.902913<br><h4>Robust resection of view 794169238: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_1.jpg<br>- Threshold (error max): 5.00281<br>- Resection status: OK<br>- # points used for Resection: 185<br>- # points validated by robust estimation: 176<br>- % points validated: 0.951351<br><h4>Robust resection of view 794320144: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_2.jpg<br>- Threshold (error max): 2.87653<br>- Resection status: OK<br>- # points used for Resection: 349<br>- # points validated by robust estimation: 327<br>- % points validated: 0.936963<br><h4>Robust resection of view 791816498: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_3.jpg<br>- Threshold (error max): 2.38172<br>- Resection status: OK<br>- # points used for Resection: 1111<br>- # points validated by robust estimation: 1060<br>- % points validated: 0.954095<br><h4>Robust resection of view 747097832: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_4.jpg<br>- Threshold (error max): 3.39286<br>- Resection status: OK<br>- # points used for Resection: 1013<br>- # points validated by robust estimation: 949<br>- % points validated: 0.936821<br><h4>Robust resection of view 752723642: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_5.jpg<br>- Threshold (error max): 3.35793<br>- Resection status: OK<br>- # points used for Resection: 1731<br>- # points validated by robust estimation: 1591<br>- % points validated: 0.919122<br><h4>Robust resection of view 749289037: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_6.jpg<br>- Threshold (error max): 3.65923<br>- Resection status: OK<br>- # points used for Resection: 2015<br>- # points validated by robust estimation: 1884<br>- % points validated: 0.934988<br><h4>Robust resection of view 741397093: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_7.jpg<br>- Threshold (error max): 3.25834<br>- Resection status: OK<br>- # points used for Resection: 1808<br>- # points validated by robust estimation: 1701<br>- % points validated: 0.940819<br><h4>Robust resection of view 1113123707: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_20.jpg<br>- Threshold (error max): 6.76243<br>- Resection status: OK<br>- # points used for Resection: 39<br>- # points validated by robust estimation: 39<br>- % points validated: 1<br><h4>Robust resection of view 504802377: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_19.jpg<br>- Threshold (error max): 1.27257<br>- Resection status: OK<br>- # points used for Resection: 67<br>- # points validated by robust estimation: 62<br>- % points validated: 0.925373<br><h4>Robust resection of view 318388001: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_18.jpg<br>- Threshold (error max): 2.72166<br>- Resection status: OK<br>- # points used for Resection: 534<br>- # points validated by robust estimation: 498<br>- % points validated: 0.932584<br><h4>Robust resection of view 482431995: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_17.jpg<br>- Threshold (error max): 4.62101<br>- Resection status: OK<br>- # points used for Resection: 473<br>- # points validated by robust estimation: 429<br>- % points validated: 0.906977<br><h4>Robust resection of view 482877691: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_16.jpg<br>- Threshold (error max): 2.94896<br>- Resection status: OK<br>- # points used for Resection: 604<br>- # points validated by robust estimation: 555<br>- % points validated: 0.918874<br><h4>Robust resection of view 492203407: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_15.jpg<br>- Threshold (error max): 2.74107<br>- Resection status: OK<br>- # points used for Resection: 952<br>- # points validated by robust estimation: 851<br>- % points validated: 0.893908<br><h4>Robust resection of view 482369635: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_14.jpg<br>- Threshold (error max): 3.08725<br>- Resection status: OK<br>- # points used for Resection: 649<br>- # points validated by robust estimation: 552<br>- % points validated: 0.850539<br><h4>Robust resection of view 492608316: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_13.jpg<br>- Threshold (error max): 4.09766<br>- Resection status: OK<br>- # points used for Resection: 213<br>- # points validated by robust estimation: 152<br>- % points validated: 0.713615<br><h4>Robust resection of view 497276018: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_12.jpg<br>- Threshold (error max): 3.75033<br>- Resection status: OK<br>- # points used for Resection: 246<br>- # points validated by robust estimation: 179<br>- % points validated: 0.727642<br><h4>Robust resection of view 489329347: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_11.jpg<br>- Threshold (error max): 2.82988<br>- Resection status: OK<br>- # points used for Resection: 687<br>- # points validated by robust estimation: 594<br>- % points validated: 0.864629<br><h4>Robust resection of view 495517959: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_10.jpg<br>- Threshold (error max): 2.91564<br>- Resection status: OK<br>- # points used for Resection: 1016<br>- # points validated by robust estimation: 917<br>- % points validated: 0.902559<br><h4>Robust resection of view 739936569: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_9.jpg<br>- Threshold (error max): 2.39121<br>- Resection status: OK<br>- # points used for Resection: 1177<br>- # points validated by robust estimation: 1057<br>- % points validated: 0.898046<br><h4>Robust resection of view 739141625: <br></h4>
+
+- Image path: C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_8.jpg<br>- Threshold (error max): 3.60856<br>- Resection status: OK<br>- # points used for Resection: 1026<br>- # points validated by robust estimation: 956<br>- % points validated: 0.931774<br><hr><h3>Structure from Motion process finished.</h3>
+Structure from Motion statistics:<br>- # input images: 30<br>- # camera calibrated: 30<br>- # poses: 30
+<br>- # landmarks: 40790<br>- elapsed time: 23.419<br>- residual RMSE: 0.437281<h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.52632,1.05263,1.57895,2.10526,2.63158,3.15789,3.68421,4.21053,4.73684,5.26316,5.78947,6.31579,6.84211,7.36842,7.89474,8.42105,8.94737,9.47368,10.00000,];
+var data1= [75535.00000,20664.00000,4647.00000,1526.00000,635.00000,285.00000,155.00000,99.00000,55.00000,36.00000,28.00000,26.00000,14.00000,8.00000,3.00000,2.00000,2.00000,3.00000,1.00000,0.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1],strokeColor:'#0000ff',highlightStrokeColor:'#0000ff'});
+board.unsuspendUpdate();
+board.setBoundingBox([-2.00000,90642.00000,12.00000,-15107.00000]);
+</script>
+
+<div id="3DtoTracksSize" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoTracksSize', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [2.00000,3.09091,4.18182,5.27273,6.36364,7.45455,8.54545,9.63636,10.72727,11.81818,12.90909,14.00000,];
+var data1= [27390.00000,8299.00000,2980.00000,1244.00000,518.00000,201.00000,84.00000,37.00000,25.00000,8.00000,3.00000,1.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1],strokeColor:'#0000ff',highlightStrokeColor:'#0000ff'});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.40000,32867.80000,16.40000,-5476.80000]);
+</script>
+</html>

@@ -1,0 +1,19 @@
+{
+    "_parent": null,
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "DepthMap_1",
+    "nodeType": "DepthMap",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_depthMapEstimation  --input \"C:/xampp/htdocs/3d/3d/cache/StructureFromMotion/3c8824f8f70fe8f235e6300f763bac8335923fa4/sfm.abc\" --imagesFolder \"C:/xampp/htdocs/3d/3d/cache/PrepareDenseScene/cc74fadbdb0ed995134a96c0f3bc046a090b73ac\" --downscale 2 --minViewAngle 2.0 --maxViewAngle 70.0 --tileBufferWidth 1024 --tileBufferHeight 1024 --tilePadding 64 --autoAdjustSmallImage True --chooseTCamsPerTile True --maxTCams 10 --sgmScale 2 --sgmStepXY 2 --sgmStepZ -1 --sgmMaxTCamsPerTile 4 --sgmWSH 4 --sgmUseSfmSeeds True --sgmSeedsRangeInflate 0.2 --sgmDepthThicknessInflate 0.0 --sgmMaxSimilarity 1.0 --sgmGammaC 5.5 --sgmGammaP 8.0 --sgmP1 10.0 --sgmP2Weighting 100.0 --sgmMaxDepths 1500 --sgmFilteringAxes \"YX\" --sgmDepthListPerTile True --sgmUseConsistentScale False --refineEnabled True --refineScale 1 --refineStepXY 1 --refineMaxTCamsPerTile 4 --refineSubsampling 10 --refineHalfNbDepths 15 --refineWSH 3 --refineSigma 15.0 --refineGammaC 15.5 --refineGammaP 8.0 --refineInterpolateMiddleDepth False --refineUseConsistentScale False --colorOptimizationEnabled True --colorOptimizationNbIterations 100 --sgmUseCustomPatchPattern False --refineUseCustomPatchPattern False --exportIntermediateDepthSimMaps False --exportIntermediateNormalMaps False --exportIntermediateVolumes False --exportIntermediateCrossVolumes False --exportIntermediateTopographicCutVolumes False --exportIntermediateVolume9pCsv False --exportTilePattern False --nbGPUs 0 --verboseLevel info --output \"C:/xampp/htdocs/3d/3d/cache/DepthMap/771914c73a55e9959a87ef9dd37f7083a7e65367\" --rangeStart 24 --rangeSize 12",
+    "env": null,
+    "startDateTime": "2025-01-13 12:40:25.304489",
+    "endDateTime": "2025-01-13 12:40:36.421698",
+    "elapsedTime": 11.117209196090698,
+    "hostname": "DESKTOP-K5H5B6K",
+    "sessionUid": "cd42bfec-d1a2-11ef-9506-5cf37089c16e",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:11.117209"
+}

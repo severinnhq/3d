@@ -1,0 +1,19 @@
+{
+    "_parent": null,
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "DepthMapFilter_1",
+    "nodeType": "DepthMapFilter",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_depthMapFiltering  --input \"C:/xampp/htdocs/3d/3d/cache/StructureFromMotion/3c8824f8f70fe8f235e6300f763bac8335923fa4/sfm.abc\" --depthMapsFolder \"C:/xampp/htdocs/3d/3d/cache/DepthMap/771914c73a55e9959a87ef9dd37f7083a7e65367\" --minViewAngle 2.0 --maxViewAngle 70.0 --nNearestCams 10 --minNumOfConsistentCams 3 --minNumOfConsistentCamsWithLowSimilarity 4 --pixToleranceFactor 2.0 --pixSizeBall 0 --pixSizeBallWithLowSimilarity 0 --computeNormalMaps False --verboseLevel info --output \"C:/xampp/htdocs/3d/3d/cache/DepthMapFilter/3aee6672f0bf0f2a85e7662b9e15c1892097118d\" --rangeStart 24 --rangeSize 24",
+    "env": null,
+    "startDateTime": "2025-01-13 12:40:39.624455",
+    "endDateTime": "2025-01-13 12:40:40.822159",
+    "elapsedTime": 1.1977031230926514,
+    "hostname": "DESKTOP-K5H5B6K",
+    "sessionUid": "cd42bfec-d1a2-11ef-9506-5cf37089c16e",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:01.197703"
+}

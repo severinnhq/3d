@@ -1,0 +1,19 @@
+{
+    "_parent": null,
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "StructureFromMotion_1",
+    "nodeType": "StructureFromMotion",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_incrementalSfM  --input \"C:/xampp/htdocs/3d/3d/cache/CameraInit/fe3cb8b6f526db484d5b5212016e40a0b2f2441d/cameraInit.sfm\" --featuresFolders \"C:/xampp/htdocs/3d/3d/cache/FeatureExtraction/45d32df23e1af3f21ec01ae15f7324e3155120cf\" --matchesFolders \"C:/xampp/htdocs/3d/3d/cache/FeatureMatching/1f85554611d6a10dc77b7e3f6f6c06fb19f8773f\" --describerTypes dspsift --localizerEstimator acransac --observationConstraint Scale --localizerEstimatorMaxIterations 4096 --localizerEstimatorError 0.0 --lockScenePreviouslyReconstructed False --useLocalBA True --localBAGraphDistance 1 --nbFirstUnstableCameras 30 --maxImagesPerGroup 30 --bundleAdjustmentMaxOutliers 50 --maxNumberOfMatches 0 --minNumberOfMatches 0 --minInputTrackLength 2 --minNumberOfObservationsForTriangulation 2 --minAngleForTriangulation 3.0 --minAngleForLandmark 2.0 --maxReprojectionError 4.0 --minAngleInitialPair 5.0 --maxAngleInitialPair 40.0 --useOnlyMatchesFromInputFolder False --useRigConstraint True --rigMinNbCamerasForCalibration 20 --lockAllIntrinsics False --minNbCamerasToRefinePrincipalPoint 3 --filterTrackForks False --computeStructureColor True --useAutoTransform True --initialPairA \"\" --initialPairB \"\" --interFileExtension .abc --logIntermediateSteps False --verboseLevel info --output \"C:/xampp/htdocs/3d/3d/cache/StructureFromMotion/3c8824f8f70fe8f235e6300f763bac8335923fa4/sfm.abc\" --outputViewsAndPoses \"C:/xampp/htdocs/3d/3d/cache/StructureFromMotion/3c8824f8f70fe8f235e6300f763bac8335923fa4/cameras.sfm\" --extraInfoFolder \"C:/xampp/htdocs/3d/3d/cache/StructureFromMotion/3c8824f8f70fe8f235e6300f763bac8335923fa4\"",
+    "env": null,
+    "startDateTime": "2025-01-13 12:39:10.888681",
+    "endDateTime": "2025-01-13 12:39:38.285905",
+    "elapsedTime": 27.398220777511597,
+    "hostname": "DESKTOP-K5H5B6K",
+    "sessionUid": "cd42bfec-d1a2-11ef-9506-5cf37089c16e",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:27.398221"
+}

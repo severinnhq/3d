@@ -1,0 +1,128 @@
+[2025-01-13 12:37:45.055700] [0x00007110] [trace]   Embedded OCIO configuration file: 'C:\Meshroom\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * contrastFiltering =  Unknown Type "enum aliceVision::feature::EFeatureConstrastFiltering"
+ * describerPreset =  Unknown Type "enum aliceVision::feature::EImageDescriberPreset"
+ * describerQuality =  Unknown Type "enum aliceVision::feature::EFeatureQuality"
+ * describerTypes = "dspsift"
+ * forceCpuExtraction = 1
+ * gridFiltering = 1
+ * input = "C:/xampp/htdocs/3d/3d/cache/CameraInit/fe3cb8b6f526db484d5b5212016e40a0b2f2441d/cameraInit.sfm"
+ * maskExtension = "png"
+ * maskInvert = 0
+ * masksFolder = ""
+ * maxCoresAvailable =  Unknown Type "unsigned int" (default)
+ * maxMemoryAvailable = 18446744073709551615 (default)
+ * maxNbFeatures = 0 (default)
+ * maxThreads = 0
+ * output = "C:/xampp/htdocs/3d/3d/cache/FeatureExtraction/45d32df23e1af3f21ec01ae15f7324e3155120cf"
+ * rangeSize = 40
+ * rangeStart = 0
+ * relativePeakThreshold = 0.02 (default)
+ * verboseLevel = "info"
+ * workingColorSpace =  Unknown Type "enum aliceVision::image::EImageColorSpace"
+
+Hardware : 
+	Detected core count : 12
+	OpenMP will use 12 cores
+	Detected available memory : 10974 Mo
+
+[12:37:45.057693][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    NVIDIA GeForce GTX 1650
+	- compute capability:      7.5
+	- clock frequency (kHz):   1725000
+	- total device memory:     4095 MB 
+	- device memory available: 3290 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   1024
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        14
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+CUDA build version: 11.6
+0
+[12:37:45.250251][info] Job max memory consumption for one image: 249 MB
+[12:37:45.250251][info] Memory information: 
+	- Total RAM:     31.7762 GB
+	- Free RAM:      10.6395 GB
+	- Available RAM: 10.6395 GB
+	- Total swap:    131072 GB
+	- Free swap:     131023 GB
+[12:37:45.250251][info] Max number of threads regarding memory usage: 39
+[12:37:45.250251][warning] More than half of the RAM is used by other applications. It would be more efficient to close them.
+[12:37:45.250251][warning]  => 21 GB are used by other applications for a total RAM capacity of 32 GB.
+[12:37:45.250251][info] # threads for extraction: 12
+[12:37:45.320347][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_25.jpg' [cpu]
+[12:37:45.329521][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_13.jpg' [cpu]
+[12:37:45.330025][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_7.jpg' [cpu]
+[12:37:45.346972][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_24.jpg' [cpu]
+[12:37:45.347968][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_21.jpg' [cpu]
+[12:37:45.347968][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_16.jpg' [cpu]
+[12:37:45.363913][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_5.jpg' [cpu]
+[12:37:45.365908][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_2.jpg' [cpu]
+[12:37:45.370891][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_19.jpg' [cpu]
+[12:37:45.378823][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_26.jpg' [cpu]
+[12:37:45.390788][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_18.jpg' [cpu]
+[12:37:45.424350][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_28.jpg' [cpu]
+[12:37:50.342485][info]       13615 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_7.jpg'
+[12:37:50.512852][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_4.jpg' [cpu]
+[12:37:51.937148][info]       14283 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_13.jpg'
+[12:37:52.160805][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_10.jpg' [cpu]
+[12:37:52.785713][info]       15631 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_5.jpg'
+[12:37:53.023674][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_3.jpg' [cpu]
+[12:37:53.682720][info]       17804 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_26.jpg'
+[12:37:53.801316][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_27.jpg' [cpu]
+[12:37:55.920228][info]       17498 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_24.jpg'
+[12:37:55.942155][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_23.jpg' [cpu]
+[12:37:55.951125][info]       17994 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_25.jpg'
+[12:37:56.112567][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_30.jpg' [cpu]
+[12:37:56.315681][info]       17742 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_19.jpg'
+[12:37:56.448219][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_8.jpg' [cpu]
+[12:37:57.799055][info]       18775 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_21.jpg'
+[12:37:57.905220][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_22.jpg' [cpu]
+[12:37:57.993150][info]       14199 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_28.jpg'
+[12:37:58.257226][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_20.jpg' [cpu]
+[12:37:59.621900][info]       15990 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_16.jpg'
+[12:38:00.043627][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_11.jpg' [cpu]
+[12:38:00.088985][info]       18390 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_4.jpg'
+[12:38:00.111206][info]       13536 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_10.jpg'
+[12:38:00.490871][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_6.jpg' [cpu]
+[12:38:00.557160][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_12.jpg' [cpu]
+[12:38:00.733809][info]       17799 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_18.jpg'
+[12:38:01.338974][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_14.jpg' [cpu]
+[12:38:02.102987][info]       14380 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_27.jpg'
+[12:38:02.282890][info]       19007 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_2.jpg'
+[12:38:02.323335][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_29.jpg' [cpu]
+[12:38:02.407694][info]       17273 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_3.jpg'
+[12:38:02.445257][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_1.jpg' [cpu]
+[12:38:04.894133][info]       16285 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_30.jpg'
+[12:38:06.070750][info]       15506 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_8.jpg'
+[12:38:06.095671][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_9.jpg' [cpu]
+[12:38:06.225472][info]       17780 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_23.jpg'
+[12:38:09.851233][info]       12802 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_12.jpg'
+[12:38:10.174763][info]       14562 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_6.jpg'
+[12:38:10.490569][info]       18107 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_22.jpg'
+[12:38:11.272396][info]       15471 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_20.jpg'
+[12:38:11.294836][info]       12369 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_11.jpg'
+[12:38:11.338714][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_15.jpg' [cpu]
+[12:38:11.745586][info]       15379 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_29.jpg'
+[12:38:12.098606][info]       17209 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_1.jpg'
+[12:38:12.627214][info]       15875 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_9.jpg'
+[12:38:13.051114][info]       16814 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_14.jpg'
+[12:38:13.068072][info] Extracting dspsift features from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_17.jpg' [cpu]
+[12:38:14.924460][info]       16777 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_15.jpg'
+[12:38:16.165019][info]       17452 dspsift features extracted from view 'C:/xampp/htdocs/3d/3d/output/3cdde43b-c0df-464c-a40e-ea2fc31a72ed/input/image_17.jpg'
+[12:38:16.166018][info] Task done in (s): 30.916000

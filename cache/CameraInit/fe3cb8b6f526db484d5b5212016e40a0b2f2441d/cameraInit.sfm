@@ -1,0 +1,431 @@
+{
+    "version": [
+        "1",
+        "2",
+        "6"
+    ],
+    "views": [
+        {
+            "viewId": "318388001",
+            "poseId": "318388001",
+            "frameId": "18",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_18.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "482369635",
+            "poseId": "482369635",
+            "frameId": "14",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_14.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "482431995",
+            "poseId": "482431995",
+            "frameId": "17",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_17.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "482877691",
+            "poseId": "482877691",
+            "frameId": "16",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_16.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "489329347",
+            "poseId": "489329347",
+            "frameId": "11",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_11.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "492203407",
+            "poseId": "492203407",
+            "frameId": "15",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_15.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "492608316",
+            "poseId": "492608316",
+            "frameId": "13",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_13.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "495517959",
+            "poseId": "495517959",
+            "frameId": "10",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_10.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "497276018",
+            "poseId": "497276018",
+            "frameId": "12",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_12.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "504802377",
+            "poseId": "504802377",
+            "frameId": "19",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_19.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "739141625",
+            "poseId": "739141625",
+            "frameId": "8",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_8.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "739936569",
+            "poseId": "739936569",
+            "frameId": "9",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_9.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "741397093",
+            "poseId": "741397093",
+            "frameId": "7",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_7.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "747097832",
+            "poseId": "747097832",
+            "frameId": "4",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_4.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "749289037",
+            "poseId": "749289037",
+            "frameId": "6",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_6.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "752723642",
+            "poseId": "752723642",
+            "frameId": "5",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_5.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "791816498",
+            "poseId": "791816498",
+            "frameId": "3",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_3.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "794169238",
+            "poseId": "794169238",
+            "frameId": "1",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_1.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "794320144",
+            "poseId": "794320144",
+            "frameId": "2",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_2.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1110812548",
+            "poseId": "1110812548",
+            "frameId": "29",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_29.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1111456038",
+            "poseId": "1111456038",
+            "frameId": "28",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_28.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1113123707",
+            "poseId": "1113123707",
+            "frameId": "20",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_20.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1113391287",
+            "poseId": "1113391287",
+            "frameId": "21",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_21.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1113774111",
+            "poseId": "1113774111",
+            "frameId": "22",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_22.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1125112048",
+            "poseId": "1125112048",
+            "frameId": "24",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_24.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1128278290",
+            "poseId": "1128278290",
+            "frameId": "23",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_23.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1135732880",
+            "poseId": "1135732880",
+            "frameId": "26",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_26.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1136977542",
+            "poseId": "1136977542",
+            "frameId": "27",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_27.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1290388706",
+            "poseId": "1290388706",
+            "frameId": "25",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_25.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1505418911",
+            "poseId": "1505418911",
+            "frameId": "30",
+            "intrinsicId": "1096067304",
+            "path": "C:\/xampp\/htdocs\/3d\/3d\/output\/3cdde43b-c0df-464c-a40e-ea2fc31a72ed\/input\/image_30.jpg",
+            "width": "768",
+            "height": "1024",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "1096067304",
+            "width": "768",
+            "height": "1024",
+            "sensorWidth": "36",
+            "sensorHeight": "24",
+            "serialNumber": "C:\\xampp\\htdocs\\3d\\3d\\output\\3cdde43b-c0df-464c-a40e-ea2fc31a72ed\\input",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "initialFocalLength": "-1",
+            "focalLength": "57.941125496954278",
+            "pixelRatio": "1",
+            "pixelRatioLocked": "true",
+            "principalPoint": [
+                "0",
+                "0"
+            ],
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "undistortionOffset": [
+                "0",
+                "0"
+            ],
+            "undistortionParams": "",
+            "locked": "false"
+        }
+    ]
+}
