@@ -1,8 +1,13 @@
-// app/api/csm-render/route.ts
 import { NextResponse } from 'next/server';
+import { headers } from 'next/headers';
+
+type CSMResponse = {
+  id: string;
+  status: string;
+  viewer_url?: string;
+};
 
 export async function POST(request: Request) {
-  // Check API key first
   const apiKey = process.env.CSM_API_KEY;
   if (!apiKey) {
     console.error('CSM API key is missing');
@@ -24,69 +29,48 @@ export async function POST(request: Request) {
       );
     }
 
-    // Log file details for debugging
-    console.log('File received:', {
-      name: (file as File).name,
-      type: (file as File).type,
-      size: (file as File).size
-    });
+    // Get host for webhook URL
+    const headersList = headers();
+    const host = process.env.NEXT_PUBLIC_APP_URL || `https://${headersList.get('host')}`;
+    const webhookUrl = `${host}/api/csm-webhook`;
 
     // Read the file data
     const bytes = await (file as File).arrayBuffer();
     const buffer = Buffer.from(bytes);
     const base64Image = buffer.toString('base64');
 
-    console.log('Making request to 3D CSM.ai API...');
+    console.log('Making request to CSM.ai API...');
     
-    // Make request to 3D CSM.ai API with updated endpoint and auth format
-    try {
-      const csmResponse = await fetch('https://api.3d.csm.ai/v1/models', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': apiKey, // Changed: removed 'Bearer ' prefix
-        },
-        body: JSON.stringify({
-          image: base64Image,
-          webhook_url: `${process.env.NEXT_PUBLIC_APP_URL}/api/csm-webhook`,
-        }),
-      });
+    const csmResponse = await fetch('https://api.3d.csm.ai/v1/models', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': apiKey,
+      },
+      body: JSON.stringify({
+        image: base64Image,
+        webhook_url: webhookUrl,
+      }),
+    });
 
-      // Log the complete response for debugging
-      const responseText = await csmResponse.text();
-      console.log('CSM API Raw Response:', responseText);
+    const responseText = await csmResponse.text();
+    console.log('CSM API Raw Response:', responseText);
 
-      if (!csmResponse.ok) {
-        let errorMessage = 'CSM API request failed';
-        try {
-          const errorData = JSON.parse(responseText);
-          errorMessage = errorData.message || errorMessage;
-        } catch (e) {
-          console.error('Failed to parse error response:', e);
-        }
-        throw new Error(`${errorMessage} (Status: ${csmResponse.status})`);
-      }
-
-      const responseData = JSON.parse(responseText);
-      console.log('CSM API Success:', responseData);
-
-      return NextResponse.json({
-        modelId: responseData.id,
-        status: 'processing',
-      });
-
-    } catch (fetchError: any) {
-      console.error('CSM API Fetch Error:', fetchError);
-      throw new Error(`CSM API request failed: ${fetchError.message}`);
+    if (!csmResponse.ok) {
+      throw new Error(`CSM API request failed: ${csmResponse.status}`);
     }
 
-  } catch (error: any) {
-    console.error('Detailed error in CSM API:', error);
+    const responseData = JSON.parse(responseText) as CSMResponse;
+
+    return NextResponse.json({
+      modelId: responseData.id,
+      status: 'processing',
+    });
+
+  } catch (error) {
+    console.error('Error in CSM render:', error);
     return NextResponse.json(
-      { 
-        error: error instanceof Error ? error.message : 'Failed to process image',
-        details: error instanceof Error ? error.stack : undefined
-      },
+      { error: error instanceof Error ? error.message : 'Failed to process image' },
       { status: 500 }
     );
   }

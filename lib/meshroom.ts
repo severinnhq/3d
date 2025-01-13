@@ -1,16 +1,16 @@
 import { exec } from 'child_process';
 import { promisify } from 'util';
 import path from 'path';
-import { mkdir, writeFile, rm, access } from 'fs/promises';
+import { mkdir, rm, access } from 'fs/promises';
 import sharp from 'sharp';
 import { v4 as uuidv4 } from 'uuid';
 
 const execAsync = promisify(exec);
 
-const IMAGES_DIR = path.join(process.cwd(), 'images');
-const OUTPUT_DIR = path.join(process.cwd(), 'output');
-const CACHE_DIR = path.join(process.cwd(), 'cache');
-const MESHROOM_PATH = "C:\\Meshroom\\Meshroom-2023.3.0-win64\\Meshroom-2023.3.0\\meshroom_batch.exe";
+export const IMAGES_DIR = path.join(process.cwd(), 'images');
+export const OUTPUT_DIR = path.join(process.cwd(), 'output');
+export const CACHE_DIR = path.join(process.cwd(), 'cache');
+export const MESHROOM_PATH = "C:\\Meshroom\\Meshroom-2023.3.0-win64\\Meshroom-2023.3.0\\meshroom_batch.exe";
 
 export const MIN_IMAGES = 20;
 export const MAX_IMAGES = 50;
