@@ -5,7 +5,7 @@ export async function GET(request: NextRequest) {
     // Extract the ID from the URL path
     const projectId = request.url.split('/').pop();
 
-    const response = await fetch(`/your-api-endpoint/${projectId}`);
+    const response = await fetch(`/3drender-git-main-severinnhqs-projects.vercel.app/${projectId}`);
     const data = await response.json();
     
     return NextResponse.json({
