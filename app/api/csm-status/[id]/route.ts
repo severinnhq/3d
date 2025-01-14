@@ -1,9 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-export async function GET(
-  request: NextRequest,
-  context: { params: { id: string } }
-) {
+export async function GET(request: NextRequest) {
   if (!process.env.CSM_API_KEY) {
     return NextResponse.json(
       { error: 'CSM API key not configured' },
@@ -12,7 +9,8 @@ export async function GET(
   }
 
   try {
-    const modelId = context.params.id;
+    // Extract the ID from the URL path
+    const modelId = request.url.split('/').pop();
 
     const response = await fetch(`https://api.3d.csm.ai/v1/models/${modelId}`, {
       headers: {
