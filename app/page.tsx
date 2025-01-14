@@ -2,7 +2,6 @@
 
 import { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 export default function Home() {
   const [files, setFiles] = useState<File[]>([]);
@@ -47,7 +46,6 @@ export default function Home() {
         throw new Error(data.error || `Server error: ${res.status}`);
       }
       
-      // Instead of polling, directly use the viewer URL if available
       if (data.viewerUrl) {
         setModelUrl(data.viewerUrl);
       }
