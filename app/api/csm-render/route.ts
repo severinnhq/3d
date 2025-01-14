@@ -29,11 +29,6 @@ export async function POST(request: Request) {
       );
     }
 
-    // Get host for webhook URL
-    const headersList = headers();
-    const host = process.env.NEXT_PUBLIC_APP_URL || `https://${headersList.get('host')}`;
-    const webhookUrl = `${host}/api/csm-webhook`;
-
     // Read the file data
     const bytes = await (file as File).arrayBuffer();
     const buffer = Buffer.from(bytes);
@@ -49,22 +44,17 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         image: base64Image,
-        webhook_url: webhookUrl,
       }),
     });
-
-    const responseText = await csmResponse.text();
-    console.log('CSM API Raw Response:', responseText);
 
     if (!csmResponse.ok) {
       throw new Error(`CSM API request failed: ${csmResponse.status}`);
     }
 
-    const responseData = JSON.parse(responseText) as CSMResponse;
+    const responseData = (await csmResponse.json()) as CSMResponse;
 
     return NextResponse.json({
-      modelId: responseData.id,
-      status: 'processing',
+      viewerUrl: responseData.viewer_url,
     });
 
   } catch (error) {
