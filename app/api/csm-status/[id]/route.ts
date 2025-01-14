@@ -1,8 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+type RouteParams = {
+  params: {
+    id: string;
+  };
+};
+
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: RouteParams
 ) {
   if (!process.env.CSM_API_KEY) {
     return NextResponse.json(
@@ -40,4 +46,3 @@ export async function GET(
     );
   }
 }
-
