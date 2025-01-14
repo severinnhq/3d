@@ -1,37 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(request: NextRequest) {
-  if (!process.env.CSM_API_KEY) {
-    return NextResponse.json(
-      { error: 'CSM API key not configured' },
-      { status: 500 }
-    );
-  }
-
   try {
     // Extract the ID from the URL path
-    const modelId = request.url.split('/').pop();
+    const projectId = request.url.split('/').pop();
 
-    const response = await fetch(`https://api.3d.csm.ai/v1/models/${modelId}`, {
-      headers: {
-        'Authorization': process.env.CSM_API_KEY,
-      },
-    });
-
-    if (!response.ok) {
-      const errorData = await response.json();
-      throw new Error(errorData.message || 'Failed to fetch model status');
-    }
-
+    const response = await fetch(`/your-api-endpoint/${projectId}`);
     const data = await response.json();
-
+    
     return NextResponse.json({
-      status: data.status,
-      viewerUrl: data.viewer_url,
+      status: data.status
     });
 
   } catch (error) {
-    console.error('Error checking model status:', error);
+    console.error('Error checking status:', error);
     return NextResponse.json(
       { error: error instanceof Error ? error.message : 'Failed to check status' },
       { status: 500 }
