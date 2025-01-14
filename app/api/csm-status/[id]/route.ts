@@ -1,14 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-type RouteParams = {
-  params: {
-    id: string;
-  };
-};
-
 export async function GET(
   request: NextRequest,
-  { params }: RouteParams
+  context: { params: { id: string } }
 ) {
   if (!process.env.CSM_API_KEY) {
     return NextResponse.json(
@@ -18,7 +12,7 @@ export async function GET(
   }
 
   try {
-    const modelId = params.id;
+    const modelId = context.params.id;
 
     const response = await fetch(`https://api.3d.csm.ai/v1/models/${modelId}`, {
       headers: {
